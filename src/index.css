@@ -1,0 +1,68 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  padding: 35px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+}
+
+.container--alt {
+  width: 202px;
+  height: 49px;
+  padding: 3px;
+  border: 0;
+  background: conic-gradient(
+    from 180deg at 50% 50%,
+    #ffffff -1.14deg,
+    #fadd58 4.87deg,
+    rgba(255, 255, 255, 0.964973) 12.61deg,
+    #e6ae83 24.16deg,
+    rgba(255, 255, 255, 0.949566) 29.95deg,
+    rgba(255, 255, 255, 0.901443) 35.48deg,
+    #ebbbf0 41.11deg,
+    rgba(255, 255, 255, 0.856301) 51.73deg,
+    #fadd58 59.78deg,
+    rgba(255, 255, 255, 0.810395) 68.26deg,
+    #cc6347 75.93deg,
+    rgba(255, 255, 255, 0.765917) 88.06deg,
+    #538aff 93.41deg,
+    rgba(255, 255, 255, 0.7209) 96.09deg,
+    #e4edff 107.05deg,
+    rgba(255, 255, 255, 0.683293) 114.01deg,
+    #e6ae83 120.88deg,
+    #c4c4c4 122.02deg,
+    rgba(255, 255, 255, 0.646412) 122.38deg,
+    #103f5a 128.43deg,
+    rgba(124, 200, 237, 0.579017) 134.06deg,
+    rgba(39, 51, 57, 0.544723) 140.38deg,
+    #242f34 146.53deg,
+    rgba(33, 46, 52, 0.498667) 150.86deg,
+    #23262b 316.22deg,
+    #f6f08e 324.76deg,
+    #b3b3b3 332.03deg,
+    #ffffff 335.66deg,
+    #6751f0 343.76deg,
+    #e7e7e7 352.96deg,
+    #ffffff 358.86deg,
+    #fadd58 364.87deg
+  );
+}
+
+.container--alt .container__bg {
+  padding: 5px 0;
+  border-radius: 8px;
+  background: linear-gradient(189deg, #2c2f35 6.83%, #0b1014 97.87%);
+}
